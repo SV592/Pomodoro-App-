@@ -1,55 +1,34 @@
-# Pomodoro App
+# Pomodoro App ⏲️
 
-DESCRIPTION
------------------------------------------------------------------------------------
-A development build for a mobile app in that allows the user to create multiple flashcards and save them locally.
+A productivity app built with React Native that helps users manage their time using the Pomodoro Technique. The app allows users to set customizable work and break intervals, providing an effective tool for improving focus and productivity.
 
+## 📋 Requirements
 
+To run this app, you’ll need:
 
-REQUIREMENTS
------------------------------------------------------------------------------------
-This app requires the following to function:
+- **React**: v18.0.0
+- **React Native**: v0.69.6
+- **Node.js**: v14.15.1
+- **Git**: v2.29.2
+- **Expo**: ~46.0.13
 
-.[REACT] V18.0.0
-.[REACT-NATIVE] V0.69.6
-.[NODEJS] V14.15.1
-.[GIT] V2.29.2
-.[EXPO] V~46.0.13
+## 🚀 Getting Started
 
+To run the Pomodoro App locally, follow these steps:
 
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/SV592/Pomodoro-App-.git
+   cd Pomodoro-App-
+2. **Install Node.js and Expo CLI**
 
-INSTALLATION
------------------------------------------------------------------------------------
-Install NODE locally as normal. Visit 
-https://nodejs.org/en/
+   Download Node.js from Node.js Offical Site (https://nodejs.org/en/download/prebuilt-installer)
+   ```bash
+   npm install -g expo-cli
+   npm install
+   expo start
 
-Install GIT locally. Visit 
-https://git-scm.com/
-
-Install React Native(Expo Cli). Run
-`npm i -g expo-cli`
-
-
-
-CONFIGURATION
-----------------------------------------------------------------------------------
-Once you've downloaded or cloned the repo, go to the root directory 
-and run `npm i` in the terminal. This will install all the required node modules.
-
-
-
-RUN
-----------------------------------------------------------------------------------
-Within the terminal. Run 
-`expo start`
-
-
-
-OUTPUT
-----------------------------------------------------------------------------------
-The expo server will start up and you will be free to use the 
-application either by launching it on the web server or by downloading expo on your mobile device
-and scanning the QR code for a mobile emulator
+This will launch the Expo development server. You can view the app on a web server for testing in a browser, or on a mobile device
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/58669882/202255635-784a4aab-c44b-40b2-a315-8906c4864d85.jpg" width="20%" height="15%">
@@ -60,8 +39,3 @@ and scanning the QR code for a mobile emulator
 </div>
 
 
-
-
-TROUBLESHOOTING
----------------------------------------------------------------------------------
-You may see a warning about a depreciated module for react-native-reanimated saying "this is not the expected version", this will be patched in the near future
