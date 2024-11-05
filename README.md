@@ -2,6 +2,20 @@
 
 A productivity app built with React Native that helps users manage their time using the Pomodoro Technique. The app allows users to set customizable work and break intervals, providing an effective tool for improving focus and productivity.
 
+## 📋 Features
+
+- **Customizable Timers**: Set personalized durations for both work sessions and breaks to fit individual productivity needs.
+- **Pomodoro Technique**: Helps users manage time and maintain focus with structured work/break intervals.
+- **Simple and Intuitive UI**: User-friendly interface designed to minimize distractions and maximize usability.
+- **Local Storage**: Retains timer settings and preferences locally for a seamless experience across app launches.
+- **Notifications**: Alerts to indicate the start and end of each session, keeping users on track without needing to check the app constantly.
+
+## 🛠️ Built With
+
+- **Frontend**: React Native, providing a cross-platform mobile application experience.
+- **State Management**: React hooks for managing component state.
+- **Local Storage**: Data is stored locally on the device using AsyncStorage for persistent access without an internet connection.
+
 ## 📋 Requirements
 
 To run this app, you’ll need:
@@ -12,11 +26,6 @@ To run this app, you’ll need:
 - **Git**: v2.29.2
 - **Expo**: ~46.0.13
 
-## 🛠️ Built With
-
-- **Frontend**: React Native, providing a cross-platform mobile application experience.
-- **State Management**: React hooks for managing component state.
-- **Local Storage**: Data is stored locally on the device using AsyncStorage for persistent access without an internet connection.
 
 ## 🚀 Getting Started
 
