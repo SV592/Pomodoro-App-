@@ -12,6 +12,12 @@ To run this app, you’ll need:
 - **Git**: v2.29.2
 - **Expo**: ~46.0.13
 
+## 🛠️ Built With
+
+- **Frontend**: React Native, providing a cross-platform mobile application experience.
+- **State Management**: React hooks for managing component state.
+- **Local Storage**: Data is stored locally on the device using AsyncStorage for persistent access without an internet connection.
+
 ## 🚀 Getting Started
 
 To run the Pomodoro App locally, follow these steps:
